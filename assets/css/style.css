@@ -1,0 +1,76 @@
+:root {
+    --pale-yellow: #fefbd8;
+    --aquamarine: #618685;
+    --dark-blue: #36486b;
+    --purple-blue: #4040a1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1 {
+    background-color: #36486b;
+    text-align: center;
+    color: white;
+    padding: 14px 20px;
+}
+
+/*Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    /* padding-top: 1000px; */
+    display: flex;
+    position: absolute;
+    border: solid;
+  }
+  
+  
+  .left {
+    left: 0;
+    
+    display: flex;
+    word-break: break-word;
+  }
+  
+  /* Control the right side */
+  .right {
+      right: 0;
+      
+      display: flex;
+      word-break: break-word;
+    }
+
+   .input {
+    width: 85%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+   }
+
+   .btn {
+    width: 85%;
+    background-color: #618685;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+   }
+
+   .btn:hover {
+    background-color: #fefbd8;
+
+   }
+
