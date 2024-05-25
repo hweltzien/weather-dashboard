@@ -20,6 +20,7 @@ To clone the application, click the green button labeled, "code." Copy the URL f
 Upon page load, the user will see the "Weather Dashboard" title in the header, a search form to collect user input on the left, and the local time above a placeholder "weather card." After completing the form and upon clicking the "Search" button, the user will see the date, temperature, wind speed, and humidity populate for today in the weather card. In the footer, the user will see a 5-day forecast with the date, temperature, wind speed, and humidity for the user-provided city. The search history is saved in local storage and buttons are dynamically created for each saved city name. The user can click the search history buttons to see previously viewed weather conditions. 
 
 
+<img src= "./assets/images/screenshot2.png" alt="screenshot">
 <img src= "./assets/images/screenshot.png" alt="screenshot">
 
 # [link to completed project](https://hweltzien.github.io/weather-dashboard/)
