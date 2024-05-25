@@ -51,20 +51,16 @@ h3 {
     word-break: break-word;
   }
   
-  /* Control the right side */
- 
+  
   .time {
     text-align: center;
   }
+  /* Control the right side */
   .right {
-      /* right: 0; */
-      /* background-color: #618685; */
+      
       display: flex;
-     padding-left: 100px;
-      /* margin-left: auto;
-      margin-right: auto; */
-      /* justify-content: 1;
-      flex: 1; */
+      padding-left: 100px;
+      
       word-break: break-word;
       font-size: 20px;
       
@@ -109,10 +105,7 @@ h3 {
 
 .date-container {
   font-weight: 100;
-  /* align column to the right end
-  display: flex;
-  float: right;
-  justify-content: end; */
+ 
   
 }
 
@@ -121,10 +114,7 @@ h3 {
   font-weight: 100;
 }
 
-/* .date-container #am-pm{
-  font-size: 20px;
-  margin-left: 20px;
-} */
+
 
 .date-container .date{
   font-size: 30px;
@@ -156,9 +146,7 @@ h3 {
   justify-content: center;
   font-size: 20px;
 }
-#pastCities {
-  /* width: 35%; */
-}
+
 button {
   width: 57%;
   background-color: #fefbd8;

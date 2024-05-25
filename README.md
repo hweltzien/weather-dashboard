@@ -1,7 +1,7 @@
 # weather-dashboard
 
 ## Description
-"MyBrewFinder" is a web app for travelers, passionate about local beverages. Using the Wikipedia API, it provides information about the destination, including population, a general description, and location. Leveraging the Yelp Fusion API, the app identifies and reviews coffee shops (or breweries) in the user provided city. This dual functionality helps travelers plan visits to local coffee shops and breweries, ensuring a rich tasting experience.
+After utilizing web-based resources and instructional support, I learned how to use a server-side API to provide current and future weather conditions. I dynamically created HTML elements using JavaScript. I used Day.js to display upcoming dates on the 5-day forecast. Moreover, the Weather Dashboard provides important information for travelers who may need weather conditions for multiple cities. 
 
 ## Table of Contents 
 
@@ -17,12 +17,12 @@ To clone the application, click the green button labeled, "code." Copy the URL f
 
 ## Usage
 
-Beginning on "index.html," the user will see the "My Brew Finder" logo in the header and a form to collect user input. After completing the form and upon clicking the "FIND MY BREW!" button, the user is directed to "info.html." The user will see the heading, "THE PERFECT BREW, FOUND FOR YOU!" and is presented with search results from Wikipedia and Yelp. There is a modal which provides information about the creators. The user can click the "go back" button to return to the home page.
+The user will see the "Weather Dashboard" title in the header, a search form to collect user input, and the local time. After completing the form and upon clicking the "Search" button, the user will see the date, temperature, wind speed, and humidity for today, based on the user-provided city. In the footer, the user will see a 5-day forecast with the date, temperature, wind speed, and humidity for the user-provided city. The search history is saved in local storage and buttons are dynamically created for each saved city name. The user can click the search history buttons to see previously viewed weather conditions. 
 
 
-<img src= "./assets/images/Screenshot1.png" alt="screenshot">
-<img src= "./assets/images/Screenshot2.png" alt="screenshot">
+<img src= "./assets/images/screenshot.png" alt="screenshot">
 
+# [link to completed project](https://hweltzien.github.io/weather-dashboard/)
 
 ## How-To-Guide
 <ul>    
@@ -56,4 +56,4 @@ Beginning on "index.html," the user will see the "My Brew Finder" logo in the he
  
 Please refer to the LICENSE in the repo.
 
-# [link to completed project](______________)
+# [link to completed project](https://hweltzien.github.io/weather-dashboard/)

@@ -199,4 +199,3 @@ function fetchWeatherData(lat, lon) {
 renderDaysOfTheWeek()
 renderSavedCities()
 
-//how is content in cards getting put in there....it's being overwritten...get rid of what's overwriting 
